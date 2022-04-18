@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <!-- the "for" of the label matches the "id" of the input -->
+    <form>
+        <div>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name">
+        </div>
+        <div>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <fieldset>
+            <!--
+                Radio buttons:
+                all radio buttons share the same name
+                each radio button should match value, id, and the label's for
+            -->
+            <legend>Gender Identity:</legend>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="non-binary" value="non-binary">
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" name="gender" id="prefer-not-to-say" value="prefer-not-to-say">
+            <label for="prefer-not-to-say">Prefer not to say</label>
+        </fieldset>
+        <div>
+            <label for="favorite-language">Favorite Language</label>
+            <select name="favorite-language" id="favorite-language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div>
+        <input type="submit" value="Create Acccount">
+    </form>
+</body>
+</html>
