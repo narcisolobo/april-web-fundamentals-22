@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* ensures that padding and border EAT from the dimensions rather than add to the dimensions */
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rebeccapurple;
+  padding: 25px;
+  border: 5px solid goldenrod;
+  margin: 10px;
+}
+
+/*
+RULE OF THUMB
+Margins push elements away
+Paddings push elements inside
+*/
+
+.box {
+  width: 250px;
+  min-height: 250px;
+  background-color: aquamarine;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 25px;
+}
+
+/* 
+
+Default inline elements:
+anchors, spans, strongs, ems, etc.
+
+Default inline block elements:
+imgs
+
+Default block elements:
+divs, ps, tables
+
+*/
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+h2 {
+  margin-left: 25px;
+}

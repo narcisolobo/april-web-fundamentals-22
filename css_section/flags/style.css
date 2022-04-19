@@ -1,0 +1,64 @@
+h2 {
+  text-align: center;
+}
+
+.container {
+  width: 450px;
+  min-height: 300px;
+  margin: 25px auto;
+  border-width: 1px;
+  border-style: inset;
+  border-color: black;
+}
+
+.stripe {
+  width: 150px;
+  height: 300px;
+  display: inline-block;
+}
+
+.blue {
+  background-color: #001e96;
+}
+
+.red {
+  background-color: #ed2537;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 60px auto;
+}
+
+.j-red {
+  background-color: #bd0129;
+}
+
+.b-stripe {
+  width: 180px;
+  height: 300px;
+  display: inline-block;
+}
+
+.b-green {
+  background-color: #038750;
+}
+
+.fly {
+  width: calc(100% - 180px);
+  display: inline-block;
+}
+
+.b-row {
+  height: 150px;
+}
+
+.b-yellow {
+  background-color: #fcd20f;
+}
+
+.b-red {
+  background-color: #e90b29;
+}

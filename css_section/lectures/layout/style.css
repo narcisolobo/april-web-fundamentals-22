@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rebeccapurple;
+  background-color: coral;
+  padding: 10px 20px;
+}
+
+#aside {
+  width: 250px;
+  min-height: 500px;
+  background-color: aquamarine;
+  display: inline-block;
+}
+
+#content {
+  width: calc(100% - 250px);
+  min-height: 500px;
+  background-color: darkkhaki;
+  display: inline-block;
+}
