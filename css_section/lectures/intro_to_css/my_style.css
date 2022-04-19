@@ -1,0 +1,55 @@
+/* 
+Parts of a CSS Rule
+1. Selector - selects the element to style
+2. Property - what aspect to style about the element
+3. Value - the value of the property to set it to
+*/
+
+/*
+Types of CSS Selectors
+1. Element selector - HTML tag
+2. Class selector - . followed by the class name
+3. ID selector - # followed by the ID name
+*/
+
+h1 {
+  color: rebeccapurple;
+  background-color: orchid;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#about {
+  background-color: darkcyan;
+}
+
+#services {
+  background-color: dodgerblue;
+}
+
+#contact {
+  background-color: firebrick;
+}
