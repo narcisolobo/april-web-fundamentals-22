@@ -1,0 +1,85 @@
+/* Utility Classes Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  /* three flex amigos */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+  /* magic centering code */
+  margin: 0 auto;
+  border: 2px dashed red;
+  min-height: 50px;
+}
+/* Utility Classes End */
+
+/* header Start */
+header {
+  background-color: red;
+  min-height: 50px;
+}
+/* header end */
+
+/* hero start */
+.hero {
+  background-color: orange;
+  min-height: 100px;
+}
+
+.hero-left {
+  /* flex item property */
+  flex: 1;
+  background-color: aqua;
+  min-height: 100px;
+}
+
+.hero-right {
+  flex: 1;
+  background-color: deeppink;
+  min-height: 100px;
+}
+/* hero end */
+
+/* courses start */
+.courses {
+  background-color: gold;
+  min-height: 200px;
+}
+
+.titles {
+  background-color: bisque;
+  min-height: 50px
+}
+
+.courses-nav {
+  background-color: deepskyblue;
+  min-height: 50px;
+}
+
+.python-courses {
+  background-color: maroon;
+  min-height: 100px;
+}
+/* courses end */
+
+/* reviews start */
+.reviews {
+  background-color: lightgreen;
+  min-height: 50px;
+}
+/* reviews end */
+
+/* viewing start */
+.viewing {
+  background-color: blue;
+  min-height: 200px;
+}
+/* viewing end */
