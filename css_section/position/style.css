@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  margin-bottom: .5em;
+}
+
+body {
+  padding: 1.5em;
+}
+
+h1 {
+  color: rebeccapurple;
+}
+
+.box {
+  width: 200px;
+  min-height: 200px;
+  background-color: cornflowerblue;
+  margin-bottom: 1.5em;
+}
+
+.static {
+  position: static;
+  top: 500px;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.absolute {
+  position: absolute;
+  top: -25px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  border-radius: 50%;
+}
+
+.cookie {
+  width: 500px;
+  height: 100px;
+  background-color: darkkhaki;
+  padding: 1.5em;
+  position: fixed;
+  bottom: 0px;
+}
+
+.header {
+  background-color: deeppink;
+  padding: .5em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
