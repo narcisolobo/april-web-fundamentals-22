@@ -1,0 +1,100 @@
+/* utility classes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: rgb(122, 122, 122);
+}
+
+h1, h2, strong, button {
+  color: black;
+}
+
+.spacer {
+  margin-bottom: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container {
+  width: 1000px;
+  min-height: 500px;
+  /* background-color: red; */
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
+
+.container > * {
+  margin-bottom: 2.5rem;
+}
+
+header {
+  padding: .5rem 0;
+}
+
+header ul {
+  list-style: none;
+}
+
+button {
+  background-color: #f17906;
+  padding: 1em 2em;
+  border: 0;
+  border-radius: 10px;
+}
+
+.hero {
+  /* min-height: 100px; */
+  /* background-color: lightseagreen; */
+}
+
+.hero-image {
+  flex: 2;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-copy {
+  flex: 3;
+}
+
+.byline-image {
+  width: 50px;
+}
+
+.features {
+  /* min-height: 100px; */
+  /* background-color: blue; */
+}
+
+.feature {
+  flex: 1;
+  padding: 1.5rem 0;
+}
+
+.feature-image img {
+  width: 100%;
+}
+
+footer {
+  /* min-height: 50px;
+  background-color: purple; */
+}
