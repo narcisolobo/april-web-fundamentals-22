@@ -1,0 +1,9 @@
+h1 {
+  color: rebeccapurple;
+}
+
+#box {
+  width: 500px;
+  min-height: 500px;
+  background-color: green;
+}

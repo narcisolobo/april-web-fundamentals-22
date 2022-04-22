@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeper Dive into the DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 onclick="removeElement(this)">Deeper Dive into the DOM</h1>
+    <h2>If the element you are manipulating is also the element with the listener, use the "this" keyword.</h2>
+    <h2>If the element you are manipulating is not the element with the listener, use the element's id instead.</h2>
+    <button onclick="removeElement(this)">CLICK TO REMOVE</button>
+    <button onclick="changeBlue(this)">CLICK TO TURN BLUE</button>
+    <div id="box"></div>
+    <button onclick="changeBlue(box)">CLICK TO TURN DIV ABOVE BLUE</button>
+    <p id="count1">11</p>
+    <button onclick="bump(count1)">bump 1</button>
+    <p id="count2">20</p>
+    <button onclick="bump(count2)">bump 2</button>
+    <p id="count3">4</p>
+    <button onclick="bump(count3)">bump 3</button>
+
+    <h3>Every form element has a value.</h3>
+    <label for="colorTextBox">ENTER COLOR:</label>
+    <input type="text" name="color" id="colorTextBox">
+    <button onclick="changeColor(box)">SUBMIT</button>
+
+    <select onchange="selectColor(box)" name="colorSelect" id="colorSelect">
+        <option value="red">RED</option>
+        <option value="blue">BLUE</option>
+        <option value="yellow">YELLOW</option>
+        <option value="purple">PURPLE</option>
+    </select>
+
+    <label for="messageBox">Enter message:</label>
+    <input type="text" name="messageBox" id="messageBox">
+    <button onclick="alertMessage(messageBox)">submit message</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
