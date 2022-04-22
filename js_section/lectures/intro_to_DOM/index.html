@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to the DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Intro to the DOM</h1>
+    <h2>What is it?</h2>
+    <p>Document Object Model - <em>The document (window) modeled as a JavaScript object.</em></p>
+
+    <h3>What is a JavaScript object?</h3>
+    <p>IRL, objects have characteristics and things they can do. For example, a car has a color, a number of wheels, a make, a model, etc. These are the characteristics of a car. Also, a car can drive, it can beep, etc. These are things a car can do.</p>
+    <p>In JS, characteristics are properties. Things that objects can do are called methods.</p>
+    <pre>
+        // Object Literal Notation
+        // Creating an object in JavaScript
+
+        var car = {
+            "color": "red",
+            "numWheels": 4,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "drive": function () {
+                console.log("Car is driving...")
+            }
+        }
+
+        // getting and setting values in an object
+        // Two options: bracket notation, and dot notation
+
+        console.log(car.color)
+        car.color = "blue";
+        console.log(car.color);
+
+        console.log(car["color"]);
+        car["color"] = "red";
+        console.log(car["color"]);
+
+        car.drive();
+    </pre>
+    <button onclick="changeText(this)">CLICK ME</button>
+    <script src="./script.js"></script>
+</body>
+</html>
