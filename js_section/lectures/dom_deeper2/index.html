@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM AGAIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="myTitle" class="myTitle">MORE DOM TO THE OUNCE</h1>
+    <p>The this keyword.</p>
+    <p>Use the this keyword when the element you're manipulating is ALSO the element with the listener.</p>
+    <button onclick="removeElement(this)">CLICK TO REMOVE</button>
+    <p>When to use ID:</p>
+    <p>Use the ID of the element when the element you're manipulating is NOT the element with the listener.</p>
+    <button onclick="removeElement(myTitle)">CLICK TO REMOVE THE H1</button>
+    <p>The button below will change all of the paragraph background colors.</p>
+    <button onclick="changeBgOfP()">CLICK TO CHANGE BG</button>
+
+    <div onmouseover="changeRed(this)" onmouseout="changeBlue(this)" class="box"></div>
+
+    <h2 id="rhyme">NO MORE RHYMES I MEAN IT</h2>
+
+    <button onclick="peanut()">CLICK ME</button>
+
+    <p><span id="p1">0</span> likes</p>
+    <p id="p2">9</p>
+    <p id="p3">2</p>
+
+    <button onclick="like(p1)">like 1</button><br>
+    <button onclick="like(p2)">like 2</button><br>
+    <button onclick="like(p3)">like 3</button><br>
+
+    <img onclick="swapper(this)" src="./images/peter_parker.webp" alt="Peter Parker" alt-src="./images/spider_man.jpeg">
+
+    <script src="./script.js"></script>
+</body>
+</html>
