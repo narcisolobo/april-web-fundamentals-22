@@ -10,10 +10,11 @@
 <body>
     <header>
         <div class="container flex">
-            <h1>GamingDojo</h1>
+            <h1>Gaming<span class="purple-text">Dojo</span></h1>
             <div class="header-right flex">
                 <select>
                     <option>Euro €</option>
+                    <option>Dollar $</option>
                 </select>
                 <img src="./images/cart-light.png" alt="Shopping Cart">
                 <span id="cartCount">0</span>
@@ -25,15 +26,67 @@
         <div class="highlights">
             <h2>Highlights</h2>
             <div class="flex">
-                <img src="./images/chevron-left.png" alt="Left">
-                <img src="./images/stonepunk.png" alt="Stonepunk">
-                <img class="right-chevron" src="./images/chevron-left.png" alt="Right">
+                <img onclick="prevImg(banner)" src="./images/chevron-left.png" alt="Left">
+                <img id="banner" src="./images/stonepunk.png" alt="Stonepunk">
+                <img onclick="nextImg(banner)" class="right-chevron" src="./images/chevron-left.png" alt="Right">
+            </div>
+            <div class="flex markers">
+                <div class="marker"></div>
+                <div class="purple-marker"></div>
+                <div class="marker"></div>
+                <div class="marker"></div>
             </div>
         </div>
         <div class="features flex">
-            <div class="feature"></div>
-            <div class="feature"></div>
-            <div class="feature"></div>
+            <div class="feature">
+                <img class="feature-img" src="./images/cafe-neko.png" alt="Café Neko">
+                <div class="feature-body">
+                    <h2>Café Neko: Gold Edition</h2>
+                    <img class="os-icon" src="./images/windows.png" alt="Windows">
+                    <img class="os-icon" src="./images/apple.png" alt="Apple">
+                    <div class="flex mt">
+                        <button class="purple-bg">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="new-price">€10.49</p>
+                        </div>
+                        <button onclick="increase(cartCount)" class="buy-button">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./images/pixel-ninjas-2.png" alt="Pixel Ninjas">
+                <div class="feature-body">
+                    <h2>Pixel Ninjas 2</h2>
+                    <img class="os-icon" src="./images/windows.png" alt="Windows">
+                    <img class="os-icon" src="./images/apple.png" alt="Apple">
+                    <div class="flex mt">
+                        <button class="purple-bg">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="new-price">€10.49</p>
+                        </div>
+                        <button onclick="increase(cartCount)" class="buy-button">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./images/stonepunk.png" alt="Stonepunk">
+                <div class="feature-body">
+                    <h2>Stonepunk 10000 BCE</h2>
+                    <img class="os-icon" src="./images/windows.png" alt="Windows">
+                    <img class="os-icon" src="./images/apple.png" alt="Apple">
+                    <img onclick="alert('This game is supported on Linux.')" class="os-icon" src="./images/linux.png" alt="Linux">
+                    <div class="flex mt">
+                        <button class="purple-bg">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="new-price">€10.49</p>
+                        </div>
+                        <button onclick="increase(cartCount)" class="buy-button">Buy</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <script src="./script.js"></script>

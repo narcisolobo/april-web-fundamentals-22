@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* utility start */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.purple-bg {
+  background-color: #9828ff;
+}
+
+.purple-text {
+  color: #9828ff;
 }
 
 .flex {
@@ -12,51 +27,117 @@
   gap: 1.5rem;
 }
 
+.mt {
+  margin-top: 1.5rem;
+}
+
 .container {
-  background-color: yellow;
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 /* utility end */
 
 /* header start */
 header {
-  background-color: aqua;
-  min-height: 50px;
+  background-color: #000;
+  padding: .5rem 0;
+  color: white;
+  border-top: 5px solid #9828ff;
+  margin-bottom: 1.5rem;
+}
+
+header select {
+  padding: .5rem .5rem;
 }
 
 .header-right img {
   width: 50px;
 }
+
+#cartCount {
+  font-size: x-large;
+  text-decoration: underline;
+}
 /* header end */
 
 /* main start */
-main {
-  background-color: burlywood;
-  min-height: 500px;
-}
 
 /* highlights start */
-.highlights {
-  background-color: lightgreen;
-  min-height: 300px;
+.highlights h2, .feature h2 {
+  margin-bottom: .6em;
+}
+
+#banner {
+  width: 800px;
 }
 
 .right-chevron {
   transform: scaleX(-1);
 }
+
+.marker {
+  background-color: grey;
+  min-height: 5px;
+  flex: 1;
+}
+
+.purple-marker {
+  background-color: #9828ff;
+  min-height: 5px;
+  flex: 1;
+}
+
+.markers {
+  width: 400px;
+  margin: 1.5rem auto;
+}
 /* highlights end */
 
 /* features start */
-.features {
-  background-color: lightsalmon;
-  min-height: 200px;
-}
 
 .feature {
   flex: 1;
-  background-color: cadetblue;
-  min-height: 200px;
+  background-color: white;
+}
+
+.feature-body {
+  padding: 1rem;
+}
+
+.feature-img {
+  width: 100%;
+  margin-bottom: .6rem;
+}
+
+.os-icon {
+  width: 40px;
+}
+
+button {
+  padding: 1em .5em;
+  font-size: large;
+  border: 0;
+  color: white;
+}
+
+.buy-button {
+  box-shadow: 5px 5px black;
+  background-color: #69a84f;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.prices {
+  text-align: right;
+}
+
+.old-price {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: x-large;
 }
 /* features end */
 /* main end */
