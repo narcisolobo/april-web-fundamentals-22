@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORACLE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="container">ASK THE ORACLE</h1>
+    </header>
+    <main class="flex container">
+        <div class="left flex-column">
+            <label for="question">ASK YOUR QUESTION</label>
+            <input type="text" name="question" id="question">
+            <button onclick="oracle()">ASK</button>
+        </div>
+        <div id="answer" class="right flex-column"></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
