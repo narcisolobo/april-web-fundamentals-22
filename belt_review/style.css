@@ -1,0 +1,62 @@
+/* utility start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container {
+  background-color: yellow;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* utility end */
+
+/* header start */
+header {
+  background-color: aqua;
+  min-height: 50px;
+}
+
+.header-right img {
+  width: 50px;
+}
+/* header end */
+
+/* main start */
+main {
+  background-color: burlywood;
+  min-height: 500px;
+}
+
+/* highlights start */
+.highlights {
+  background-color: lightgreen;
+  min-height: 300px;
+}
+
+.right-chevron {
+  transform: scaleX(-1);
+}
+/* highlights end */
+
+/* features start */
+.features {
+  background-color: lightsalmon;
+  min-height: 200px;
+}
+
+.feature {
+  flex: 1;
+  background-color: cadetblue;
+  min-height: 200px;
+}
+/* features end */
+/* main end */
