@@ -1,0 +1,37 @@
+Three full stack technologies:
+
+Day 1: Fundamentals of the language
+Day 2 - 3: Object-oriented programming - (OOP)
+Day 4: The framework of the stack
+
+Python: Flask
+Java: Spring MVC
+MERN: Express, React
+
+Mongo DB, Express.js, React.js, Node.js
+
+Web app paradigm (architecture philosophy):
+MVC - Model (DB), View (Front end), Controller (Logic)
+
+User types in URL
+URL maps to a function
+Function performs Logic
+Makes query to DB
+DB returns result
+Function performs Logic
+Sends response to client
+
+END GOAL:
+To build a web app capable of full CRUD.
+
+Create, Read, Update, Destroy
+END END GOAL: Login and Registration
+
+WEEK 3: BELT EXAM
+Red belt (8/10) / Black belt (9.5/10)
+
+Don't get too hung on getting a black belt.
+
+WEEK 4: PROJECT WEEK
+Build a web app! Incorporate an API!
+

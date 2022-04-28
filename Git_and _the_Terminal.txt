@@ -1,0 +1,13 @@
+What is Git?
+Version Control System - it allows us to keep track of the changes in a code base.
+
+What is Github?
+It's like a cloud host for our git repositories.
+
+What is the terminal?
+The terminal allows us to interact with the files and folders on our machines through a CLI (Command Line Interface), rather than a GUI (graphical user interface).
+
+SHELLS:
+Linux, Mac: ZShell
+PC: Command Prompt, PowerShell, Git Bash
+
