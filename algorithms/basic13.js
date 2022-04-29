@@ -128,3 +128,40 @@ function printAverageOfArray(arr) {
 
 console.log("BASIC 13 #6:");
 printAverageOfArray([1, 2, 3, 4, 5]);
+
+// 9. Greater than Y
+// returnArrayCountGreaterThanY(arr, y)
+// Given an array and a value y, count and return the number of array values greater than Y. 
+
+
+
+// Create a function named returnArrayCountGreaterThanY that takes in an array and a value called y
+// Inside the function:
+// Create a var called tally and set it to 0
+// Create a standard floop for an array
+// Inside the floop:
+// Create a conditional that compares if the current value in the array (arr[i]) is greater than y.
+// If it is, then we increment tally by one
+// Outside the loop, return tally
+
+var myArr = [43, 6, 10, 5, 398];
+var val = 40;
+
+function returnArrayCountGreaterThanY(arr, y) {
+  var tally = 0;
+  for (var i = 0; i < arr.length; i++){
+    if (arr[i] > y) {
+      tally++;
+    }
+  }
+  return tally;
+}
+
+console.log("BASIC 13 #9:");
+console.log(returnArrayCountGreaterThanY([4, 2, 6, 7, 8, 3, 5, 4, 1, 2, 6, 7], 5));
+
+function hello() {
+  console.log("hello");
+}
+
+console.log(hello());
